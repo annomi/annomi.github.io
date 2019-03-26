@@ -14,5 +14,7 @@
 
 ### 2. 关于我们
 
+![](https://raw.githubusercontent.com/annomi/annomi.github.io/master/files/c1.png)
+
 - 本页面为测试页面
 - 联系:annomit@outlook.com
