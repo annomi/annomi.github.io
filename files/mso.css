@@ -1,0 +1,75 @@
+input[type=search]::-ms-clear{
+	display: none;
+}
+#moulemHtml{height:100%;}
+#moulemBody{height:100%;font-family:"微软雅黑";margin:0;padding: 0;}
+#msoBigBox{width:100%;height: 60px;background-color: #e6e6e6;border-bottom:1px solid #cccccc;position:fixed;font-size: 16px;z-index:802;display:none;
+}
+#msoBigBox *{
+box-sizing:	content-box;
+-moz-box-sizing:content-box; /* Firefox */
+-webkit-box-sizing:	content-box; /* Safari */
+}
+#msoBigBoxLine0{width:100%;height: 60px;position:fixed;z-index:801;}
+#msoBigBoxLine1{width:100%;height: 80px;position:fixed;z-index:800;display: none;background-color:;}
+#msoLogo{width:127px;height: 44px;margin:8px 0 0 10px;background-color:;background-image: url(images/logo60.png);background-size: cover;background-position: center;float: left;cursor: pointer;}
+#msoInputBox{width:480px;height: 40px;float:left;margin:10px 0 0 10px;line-height: 40px;position:relative;background-color:}
+#msoInput{width:370px;height: 40px;padding:0 90px 0 18px;border:1px solid #cccccc;border-radius: 100px;
+	background-color: white;outline: none;display: block;font-size: 16px}
+#msoChangeBox{width:164px;border:1px solid #cccccc;background-color: white;position: absolute;top: 35px;right: -44px;
+	list-style: none;overflow: hidden;border-radius: 10px;z-index:999;margin:0;padding: 0;display:none;
+	-moz-user-select: none; -khtml-user-select: none; user-select: none;}
+#msoChangeBox li{width:72px;height:28px;float: left;font-size:14px;display: block;margin:0 0px 0 0;line-height: 28px;
+	padding: 0 0 0 10px;cursor: pointer;overflow: hidden;display: inline-block;background-color: white;}
+#msoChangeBox li:hover{background-color: #f0f0f0;}
+
+#msoType{width:;height: 39px;position: absolute;padding:0 10px 0 10px;right:2px;cursor: pointer;color: #989898;text-align: right;background-color:white;border-radius: 0 100px 100px 0;font-size:14px;margin:1px 1px 0 0;
+			-moz-user-select: none; -khtml-user-select: none; user-select: none;}
+#msoType:hover{color:black;}
+#msoBtnBox{width:656px;height: 100%;float: left;background-color:;list-style: none;padding:0 10px 0 10px;margin: 0;
+	background-color: #e6e6e6;border-radius:0 0 10px 10px;overflow: hidden;
+	-moz-user-select: none; -khtml-user-select: none; user-select: none;}
+#msoBtnBox a{width:80px;padding:0 1px 0 1px;height:100%;float: left;text-align: center;line-height:60px;
+	overflow: hidden;cursor: pointer;color: #191919;display: block;text-decoration: none;}
+.msoBtnBoxNowA{background-image:url(images/msoBtnBg2.png);border-image-repeat:repeat;}
+#msoBtnBox a:hover{background-image:url(images/msoBtnBg2.png);border-image-repeat:repeat;}
+.canMoviLi{}
+
+#moulemSearchBox{box-sizing: border-box;width: 100%;height: 100%;padding-top:60px;display: none;background-color: white;}
+#moulemSearch{width:100%;border:0;height:100%;overflow-y: hidden;}
+
+#msoLock{width:20px;height:20px;display:block;position:fixed;z-index: 804;margin:20px 0px 0 0;right: 20px;cursor: pointer;}
+
+
+
+
+.msoKeyWord {
+	width: 440px;
+	height: auto;
+	border: solid 1px #cccccc;
+	border-top: none;
+	position: absolute;
+	top: 42px;
+	left: 18px;
+	z-index: 40;
+	display: none;
+	font-size: 15px;
+	background-color: white;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	overflow: hidden
+}
+.msoKeyWord span {
+	display: block;
+	clear: both;
+	width: 100%;
+	height: 28px;
+	text-indent: 15px;
+	line-height: 28px;
+	cursor: pointer;
+	background: white;
+	border-bottom: solid 1px #fff
+}
+.msoKeyWord span:hover {
+	background: rgba(0,0,0,0.5)
+}
